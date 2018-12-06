@@ -1,0 +1,231 @@
+/* body{
+  background: black;
+}
+
+.list{
+  background-color: white;
+} */
+
+/*@media (min-width: 550px)
+{
+.six-columns {
+    width: 48%;
+}
+}*/
+
+
+body
+{
+  background-color: #eee;
+
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h3{
+  color: #e25141!important;
+  font-size: 1.5rem;
+   text-align: center;
+}
+ 
+.FormHeader{
+  background: #47b6b3!important;
+  color:white;
+}
+
+.ss{
+  border: 1px solid red;
+}
+
+
+
+
+.navbar-dark{
+   background-color: #9251ac !important;
+  
+}
+
+.nav-link{
+  color:#fff;
+}
+
+
+
+.btn-Create{
+  font-size: 11px;
+  color: #fff;
+  padding: 10px 0px 10px 0px;
+  background-color: #4dc247;
+  border-color: #4dc247;
+}
+
+.btn-View{
+  font-size: 11px;
+  padding: 10px 0px 10px 0px;
+  color: #fff;
+  background-color: #32a6a2;
+  border-color: #32a6a2;
+}
+
+.btn-Accounts-View{
+  font-size: 15px;
+}
+
+
+.btn-Accounts-Delete{
+  font-size: 13px;
+  padding: 5px 30px 5px 30px;
+  color: #fff;
+  background-color: #f9152f;
+  border-color: #f9152f;
+}
+
+
+.btn-Accounts-WithDraw-Plus
+{
+  font-size: 13px;
+  padding: 8px 0px 8px 0px;
+  color: #fff;
+  background-color: #4dc247;
+  border-color: #4dc247;
+}
+
+
+.btn-Accounts-WithDraw-Cancel
+{
+  font-size: 13px;
+  padding: 8px 0px 8px 0px;
+  color: #fff;
+  background-color: #f9152f;
+  border-color: #f9152f;
+}
+
+
+
+.btn-Accounts-WithDraw
+{
+  font-size: 13px;
+  padding: 5px 30px 5px 30px;
+  color: #fff;
+  border-radius: 100px;
+  background-color: #f9152f;
+  border-color: #f9152f;
+}
+
+.btn-Accounts-Deposit
+{
+  font-size: 13px;
+  padding: 5px 30px 5px 30px;
+  color: #fff;
+  border-radius: 100px;
+  background-color: #4dc247;
+  border-color: #4dc247;
+}
+
+.table .thead-dark th {
+  background-color: #39beb9 !important;
+  border-color: #fff;
+}
+
+/* @media only screen and (max-width: 386px) {
+  .ViewAccounts{
+    font-size: 1px !important;
+    margin-top:20px;
+    margin-bottom:10px;
+    margin-left:20%;
+  }
+  
+} */
+
+.Transactions{
+  font-size: 22px !important;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-left:40%;
+}
+
+.ViewAccounts{
+  font-size: 25px !important;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-left:40%;
+}
+
+
+
+
+.Dashboard_Icons{
+  font-size: 20px !important;
+  margin-top:20px !important;
+}
+
+.btn-Create-Plus{
+  font-size: 11px;
+  color: #fff;
+  padding: 3px 5px 3px 5px;
+  background-color: #4dc247;
+  border-color: #4dc247;
+  font-weight: bold;
+  float: right !important;
+}  
+.btn-View-Plus{
+  font-size: 11px;
+  color: #fff;
+  padding: 3px 5px 3px 5px;
+  font-weight: bold;
+  background-color: #9251ac;
+  border-color: #9251ac;
+}  
+
+
+.btn-View-Plus-Blue{
+  font-size: 11px;
+  color: #fff;
+  padding: 3px 5px 3px 5px;
+  font-weight: bold;
+  background-color: #39beb9;
+  border-color: #39beb9;
+  float: right !important;
+}  
+
+
+.AccCount {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.hr_dashboard{
+   margin-top:0.2rem;
+}
+
+
+.Dashboard_Debit{
+  font-size: 11px;
+  color: #fff;
+  padding: 3px 5px 3px 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: #bbb;
+  border-color: #bbb;
+  border-radius: 3px;
+  float: left !important;
+}
+
+
+.Dashboard_Credit{
+  font-size: 11px;
+  color: #fff;
+  padding: 3px 5px 3px 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: #bbb;
+  border-color: #bbb;
+  border-radius: 3px;
+  float: right !important;
+}
